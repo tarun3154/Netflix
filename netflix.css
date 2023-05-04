@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #00081d;
+    color:#fff
+}
+
+.header{
+    width: 100%;
+    height:120vh;
+    background-image: linear-gradient(rgba(29, 16, 63, 0.64),rgba(32, 11, 46, 0.7)),url("https://khusoko.com/wp-content/uploads/2022/02/Netflix.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:10px 8%;
+    position: relative;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color:#fff;
+    border-radius: 5px;
+    padding:7px 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0px; 
+}
+nav img{
+    width:10rem;
+    height: 2.8rem;
+    background-color: #e70c0c69;
+    border-radius: 13px;
+}
+#lang-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding:7px 10px;
+}
+
+#lang-btn i{
+    margin-right: 0.4em;
+    font-size: 0.83rem;
+}
+#lang-btn i{
+    margin-left: 5px;
+    margin-top: 2.1px;
+}
+
+#lang-div{
+    /* display: flex; */
+    flex-direction: column;
+}
+
+
+
+.right-nav-div{
+    display: flex;
+}
+#dropdown{
+    display: none;
+    margin-left: 2.3rem;
+    line-height: 1.2rem;
+}
+.header-content{
+    position: absolute;
+    top:41%;
+    left:38%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    margin-top: 100px;
+
+}
+
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content h2{
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.email-signup{
+    background: #1d1a1a93;
+    border-radius: 4px;
+    gap:30px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.feature-signup-p{
+    margin-left: 11rem;
+}
+
+.email-signup input{
+    font-size: 1rem;
+    flex: 1;
+    font-weight: 700;
+    color:white;
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+    margin-left:30px;
+}
+.email-signup button{
+    color:whitesmoke;
+    font-size: 1.3rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 15px 30px;
+    background-color: #f10909;
+
+}
+
+ .row{
+    width: 700px;
+    /* border:2px solid red; */
+    background-image: url('https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.806732512.1682001750&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1.2em;
+    margin-bottom: -40px;
+    border-radius: 5px;
+}
+.row .img-col img{
+    width: 400px;
+    margin-left:7rem;
+    margin-top: 1.3em;
+
+}
+
+.text-col{
+    padding: 5% 6%;
+}
+
+.text-col h2{
+    margin-left:5.3rem;
+    margin-bottom: 1.2rem;
+}
+.text-col p{
+    margin-left:5.3rem;
+    line-height: 24px;
+    width: 75%;
+
+}
+
+.feature1{
+    display: flex;
+    /* border:3px solid red; */
+    padding:1.7rem 2% 1.7rem 2%;
+
+}
+.feature2{
+    display: flex;
+    /* border:3px solid red; */
+    padding:1.7rem 2% 1.7rem 2%;
+
+}
+
+
+
+.faq{
+    padding:60px 12%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.faq h2{
+    font-weight: 500;
+    font-size: 43px;
+    margin-right: 24rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.fq-list{
+    margin:60px auto;
+    width: 100%;
+    max-width: 750px;
+    margin-right: 36rem;
+
+
+}
+
+.content-click{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: red;
+}
+/* .fq-list li{
+    list-style: none;
+    width: 100%;
+    padding:5px;
+} */
+
+/* .fq-list li label{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width: 129%;
+
+    font-size: 1.4rem;
+    font-weight: 200;
+    background: #132144;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.fq-list li label:hover{
+    background: #7184b370;
+} */
+
+ /* label::after{
+    content: "+";
+    position: absolute;
+    font-size: 50px;
+    font-weight: 100;
+    font-stretch: ultra-condensed;
+    right:20px;
+    font-family:  'Times New Roman', Times, serif;
+} */
+
+ 
+
+/* .fq-list li input[type="radio"]{
+    display: none;   
+} */
+.fq-list .content{
+    background: #132144;
+    /* width: 129%; */
+    
+    text-align: left;
+    /* padding: 0px 20px; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5, padding 0.5;
+}
+/* .fq-list .content .panel{
+    padding:1rem 1.4rem;
+    font-size: 1.4rem;
+} */
+/* .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  } */
+.content{
+    /* background-color: blue; */
+    max-height: 0;
+    margin-top: 1rem;
+    transition:  all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+.accordian{
+    overflow: hidden;
+    padding:0.22rem;
+}
+.panel {
+    padding-bottom: 1rem;
+}
+
+.active{
+    transition: all .3s ease-out;
+    max-height: 1000px;
+}
+
+.content-click span i{
+    font-size:59px;
+    font-weight: 200;
+    transition: .12s linear ease;
+}
+.content-click>span.active{
+    /* transition: all 3s ease; */
+ transform: rotate(45deg);
+ /* font-size: 2rem; */
+ /* color  :black */
+}
+
+#feature-signup p{
+        margin-right:8rem;
+        margin-top: 1.2rem;
+        margin-bottom: -0.8em;
+}
+
+.footer-div span{
+    font-size: 17px;
+    font-weight: 100;
+    color: #b4afaf;
+    margin-left:9.8rem;
+    margin-top: -4rem;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+}
+ 
+
+.footer-sec{
+    display: flex;
+    gap:7.9rem;
+    margin-left:9.7rem;
+    margin-top: 2rem;
+}
+
+
+
+.footer1-div p{
+    text-align: left;
+    /* border: 2px solid #b4afaf;; */
+    font-size: 13px ;
+    font-family: "netflix sarif", "Helvetica Neue", "Arial sans ","sans-serif";
+    margin-top: 1.2rem;
+    color:#ffffffbb;
+    text-decoration: underline cornsilk;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+
+}
+
+.footer2-div p{
+    text-align: left;
+    /* border: 2px solid #b4afaf;; */
+    font-size: 13px ;
+    font-family: "netflix sarif", "Helvetica Neue", "Arial sans ","sans-serif";
+    margin-top: 1.2rem;
+    color:#ffffffbb;
+    text-decoration: underline cornsilk;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    
+
+}
+
+.footer3-div p{
+    text-align: left;
+    /* border: 2px solid #b4afaf;; */
+    font-size: 13px ;
+    font-family: "netflix sarif", "Helvetica Neue", "Arial sans ","sans-serif";
+    margin-top: 1.2rem;
+    color:#ffffffbb;
+    text-decoration: underline cornsilk;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+
+
+}
+
+
+.footer4-div p{
+    text-align: left;
+    /* border: 2px solid #b4afaf;; */
+    font-size: 13px ;
+    font-family: "netflix sarif", "Helvetica Neue", "Arial sans ","sans-serif";
+    margin-top: 1.2rem;
+    color:#ffffffbb;
+    text-decoration: underline cornsilk;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+
+}
+
+.lang-div{
+    font-size: 2rem;
+    margin-top: 2.6rem;
+    margin-left: 10.2rem;
+
+}
+
+.lang-div i{
+    color:rgba(255, 255, 255, 0.829);
+    display: flex;
+    position: relative;
+    right:1%;
+    margin-left: 1rem;
+
+}
+.lang-div button {
+    color:white;
+    border-radius: 0.3em;
+    
+}
+
+.bottom-tag {
+    margin-left:10.2rem;
+    margin-top:1.4rem;
+    font-size: 13px;
+    margin-bottom: 5rem;
+}

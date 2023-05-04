@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+
+        .container{
+            background-color: aquamarine;
+            background-size: fixed;
+            height: 200vh;
+            width:100vw;
+            display:flex;
+            /* flex-wrap: wrap; */
+            /* overflow: hidden; */
+            
+        }
+        .container2{
+            background-color: aquamarine;
+            background-size: fixed;
+            height: 100vh;
+            width:100vw;
+            display:grid;
+            grid-template-columns: 1fr 1fr  1fr 1fr;
+            /* flex-wrap: wrap; */
+            /* overflow: hidden; */
+            
+        }
+        .item{
+            background-color: blueviolet;
+            height:15rem;
+            width: 20rem;
+            color:white;
+            display: flex;
+            margin: 2rem;
+            margin-bottom: 3rem;
+            justify-content: center;
+            /* overflow: hidden; */
+            align-items: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="first">first div</div>
+        <div class="item" id="second">second div</div>
+        <div class="item" id="third">third div</div>
+        <div class="item" id="fourth">fourth div</div>
+        <div class="item" id="fiveth">fiveth div</div>
+        <div class="item" id="sixth">sixth div</div>
+        <div class="item" id="seventh">seven div</div>
+        <div class="item" id="eighth">eight div</div>
+    </div>
+
+
+
+
+    <div class="container2">
+        <div class="item" id="first">first div</div>
+        <div class="item" id="second">second div</div>
+        <div class="item" id="third">third div</div>
+        <div class="item" id="fourth">fourth div</div>
+        <div class="item" id="fiveth">fiveth div</div>
+        <div class="item" id="sixth">sixth div</div>
+        <div class="item" id="seventh">seven div</div>
+        <div class="item" id="eighth">eight div</div>
+    </div>
+</body>
+</html>
